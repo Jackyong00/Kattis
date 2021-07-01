@@ -1,11 +1,17 @@
 strNum = input()
 listofStr = strNum.split(' ')
 #print(listofStr)
-listofStr.sort()
+#print(listofStr[0])
+firstNum= int(listofStr[0])
+secondNum = int(listofStr[1])
+if firstNum > secondNum:
+    print("{} {}".format(secondNum,firstNum))
+else:
+    print("{} {}".format(firstNum,secondNum))
 #print(listofStr)
-endStr = " "
-output = endStr.join(listofStr)
+# endStr = " "
+# output = endStr.join(listofStr)
     
-print(output)
+#print(output)
 
 
